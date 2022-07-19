@@ -1,0 +1,61 @@
+body {
+  font-family:monospace;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 360px ;
+  margin: auto;
+  padding: 20px ;
+  text-align: center
+}
+
+.container .title {
+  background-color: brown;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.container .title span {
+  color: rgb(255, 208, 0)
+}
+
+.container .square {
+  display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+}
+.container .box {
+  width:116px;
+  height: 116px;
+  background-color: brown;
+  /* margin: auto; */
+  /* display: flex; */
+  cursor: pointer;
+  font-size: 60px;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+.container .box:hover {
+  background-color: black;
+}
+
+.container .box.endGame {
+  background-color: black;
+}
+
+.container .score {
+  font-size: 30px;
+  background-color: brown;
+  margin-top: 10px;
+  color: white;
+}
+.container .score span {
+  color:rgb(255, 208, 0);
+  font-weight: bold;
+  font-size: 33px;
+}
