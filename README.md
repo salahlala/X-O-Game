@@ -1,1 +1,1 @@
-# X-O Game Project with JavaScript
+# X-O Game Project
